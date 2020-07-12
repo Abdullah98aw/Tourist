@@ -7,21 +7,16 @@
   <title>SWE 444 </title>
     <link rel="stylesheet" style="text/css" href="SWE444.css" >
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script> function abd(){
-           document.querySelector(".s").value="abdullah Hussain Alawad";
-            document.querySelector(".as").value ="201605774";
-        }
-</script>
     </head> 
     <body>
     <div id="wrapper">
 	<div id="menu-wrapper">
-		<div id="menu" class="container">
+		<span id="menu" class="container">
 			<ul class="demo">
                 <li class="current_page_item"><a href="SWE444.html"> Tourist places   </a></li>
                 <li><a href="about.html">   About Us    </a></li>
 			</ul>
-		</div>
+		</span>
 	</div>
     </div>
          <div id="one">
@@ -30,24 +25,26 @@
      <h1 style="color: darkred"> Ha'il City </h1><br>
 	</div> 
      </div>
-               <form id="form">
-                   <p style="align-content: center; color: black"> Anything with a star ( * ) must fill in its blank </p>
-    <div >
-        <label> Name <label style="color: red"> * </label></label> <br>
-        <input class="s">
-       
-    </div>
-                   <div>
-        <label> ID Number <label style="color: red"> * </label> </label><br>
-        <input class="as"> 
-                       
-    </div>
-                   <button onclick="abd()"> Show </button>
-</form>
-           <script src="SWE444.js"></script>
+               <div id="form">
+                   <h1 style="align-content: center; color: black; margin-left: 20%"> Work on it by students </h1>
+   <table>
+
+<tr>
+     <th>Name: </th><br> 
+     <td> <input id="name" type="text" readonly> </td>
+</tr><tr>
+       <th> ID Number: </th><br>
+    <td> <input id="number" type="text" readonly> </td>
+</tr>
+
+</table>
+                   <button onclick=" abd1()">show information for student 1</button>
+                   <button onclick=" abd2()">show information for Student 2</button>
+</div>
         </div> 
           <div id="footer">
             <p>© This site was created in 2020 and all rights reserved <a href="http://www.uoh.edu.sa/Pages/default.aspx" rel="help">Hail University </a>.  about us <a href="SWE444.html"> Home page</a>.</p>
 </div>
+        <script src="SWE444.js"> </script>
     </body>
 </html>

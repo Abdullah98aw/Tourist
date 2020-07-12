@@ -1,6 +1,4 @@
 <!-- 
-diffrent Styles
-diffrent color
 Adding table(s) with span column(s) or row(s).
 Using input forms such as text box, button, etc.
 Using different styles of borders. 
@@ -12,17 +10,35 @@ Add a button which shows a welcoming message when the user click on it (using
 Javascript
 Add a button once is clicked, shows yours names with yours student numbers
 -->
-
 <!DOCTYPE html>
-
-
 <html>
 <head>
     <meta charset="utf-8">
   <title>SWE 444 </title>
     <link rel="stylesheet" style="text/css" href="SWE444.css" >
-    
-</head> 
+    <script> 
+    var ans = window.prompt("Are you a visitor ?  (yes , no) ");
+
+if( ans == "yes" )
+{
+    alert(' Welcome to Hail '); 
+}
+else if(ans == "no") {
+        alert(' Enjoy, We hope you visit us '); }
+        else if(ans == "No") {
+        alert(' Enjoy, We hope you visit us '); }
+        else if(ans == "Yes") {
+        alert(' Welcome to Hail '); }
+        else if(ans == "YES") {
+        alert(' Welcome to Hail '); }
+         else if(ans == "NO") {
+        alert(' Enjoy, We hope you visit us '); }
+        else{
+          alert(' please Restart the page,and choose (yes or no)');  
+        window.stop();
+    }
+    </script>
+    </head> 
     <body>
     <div id="wrapper">
 	<div id="menu-wrapper">
@@ -82,10 +98,15 @@ Add a button once is clicked, shows yours names with yours student numbers
 					<h2> Juba </h2><div style="font-size: 18px">
                     <p>Juba is considered one of the most important and largest archaeological sites in the Kingdom of Saudi Arabia, it contains inscriptions and drawings scattered in Jabal Umm Sanman and the mountains near them, and the inscriptions belong to three different time periods,</p></div>
 					<a href="https://www.google.com/maps/place/Jubbah/@28.0240733,40.9535955,12z/data=!3m1!4b1!4m5!3m4!1s0x1575b5779142883d:0x1bf71ab1bdeb5d53!8m2!3d28.0074754!4d40.9384914" class="button"> Location </a>
-				</div></div></div></div>
-                </div></div>
+            </div>
+           </div>
+          </div>
+         </div>
+        </div>
+       </div>
         <div id="footer">
-            <p>© This site was created in 2020 and all rights reserved <a href="http://www.uoh.edu.sa/Pages/default.aspx" rel="help">Hail University </a>.  about us <a href="SWE444.html"> Home page</a>.</p>
+            <p>© This site was created in 2020 and all rights reserved <a href="http://www.uoh.edu.sa/Pages/default.aspx" rel="help">Hail University </a>. about us <a href="SWE444.html"> Home page</a>.</p>
 </div>
+        
 </body>
 </html>
